@@ -1,0 +1,26 @@
+TSA4 TASKS FOR TODAY — SOURCE PACKAGE
+
+1. Extract this folder to C:\xampp\htdocs\tasks-for-today-tsa4.
+2. Open that folder in VS Code and start MySQL in XAMPP.
+3. In the terminal run:
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup-local.ps1
+4. Choose a manager password when prompted.
+5. Create the EMPTY MySQL database tasks_for_today_tsa4 in phpMyAdmin.
+6. Run: php artisan migrate --seed
+7. Run: php artisan test
+8. Run: php artisan serve
+
+Your login email defaults to buen@example.com and uses the password YOU chose.
+No default manager password is published.
+
+This ZIP includes the completed application-specific code, migrations, seeder,
+tests and deployment instructions. Framework libraries and official Breeze PHP
+scaffolding are installed by the setup script using Composer on your computer.
+There is no node/npm build. Internet is needed for Composer installation.
+
+This is a separate TSA4 application. Do not extract over your working TSA3 folder.
+The build environment lacked PHP/Composer, so automated PHP tests have not been
+run here. Run the included test suite locally before publishing.
+
+After local verification, follow GITHUB_AND_INFINITYFREE.md or return to this chat
+for guided GitHub and InfinityFree steps.
